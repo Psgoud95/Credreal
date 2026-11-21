@@ -1,0 +1,12 @@
+# Never upload secrets or local-only files to Vercel.
+.env
+.env.*
+.git
+.gitignore
+.vercel
+.vercelignore
+node_modules
+server.js
+README.md
+*.log
+.DS_Store

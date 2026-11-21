@@ -1,0 +1,13 @@
+{
+  "name": "credreal-weather",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Skyline Weather — login-free current weather and 6-day outlook for any city.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
