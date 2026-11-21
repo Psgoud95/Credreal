@@ -248,8 +248,8 @@
         icon: '<path d="M12 3.4s5.6 5.3 5.6 9.1a5.6 5.6 0 1 1-11.2 0C6.4 8.7 12 3.4 12 3.4Z" />',
       },
       {
-        label: "Wind",
-        value: `${Math.round(windValue)} ${windUnit}${current.wind_dir ? ` ${current.wind_dir}` : ""}`,
+        label: current.wind_dir ? `Wind · ${current.wind_dir}` : "Wind",
+        value: `${Math.round(windValue)} ${windUnit}`,
         icon: '<path d="M3 8h10.2a2.8 2.8 0 1 0-2.8-2.8" /><path d="M3 12.2h14.2a2.8 2.8 0 1 1-2.8 2.8" /><path d="M3 16.4h7" />',
       },
       {
