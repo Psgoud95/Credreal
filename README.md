@@ -154,6 +154,8 @@ npx vercel --prod
 
 Vercel auto-detects `api/weather.js` as a Node function and serves the three static files. No build command is required.
 
+To ship an update, run `npx vercel --prod` again (or connect the repository in the Vercel dashboard for Git-based deployments).
+
 ## Acceptance criteria
 
 | Requirement | Status |
